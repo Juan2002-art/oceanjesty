@@ -99,7 +99,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-bold text-deep-blue text-lg">Ubicación Principal</p>
-                    <p className="text-slate-600">Muelle La Bodeguita, Taquilla 4<br/>Cartagena de Indias, Colombia</p>
+                    <p className="text-slate-600">Muelle La Bodeguita, Taquilla 4<br />Cartagena de Indias, Colombia</p>
                   </div>
                 </div>
 
@@ -109,7 +109,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-bold text-deep-blue text-lg">Teléfono / WhatsApp</p>
-                    <p className="text-slate-600">+57 300 123 4567</p>
+                    <a href="https://wa.link/9u4yn9" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-turquoise transition-colors block">+57 323 4362220</a>
                   </div>
                 </div>
 
@@ -302,11 +302,10 @@ export default function Contact() {
                         className="transition-all duration-200 hover:scale-110"
                       >
                         <Star
-                          className={`w-8 h-8 ${
-                            star <= formData.rating
+                          className={`w-8 h-8 ${star <= formData.rating
                               ? "fill-sand text-sand"
                               : "text-white/30"
-                          }`}
+                            }`}
                         />
                       </button>
                     ))}

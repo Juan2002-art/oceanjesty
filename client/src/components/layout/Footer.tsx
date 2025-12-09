@@ -65,11 +65,18 @@ export function Footer() {
             <ul className="space-y-6">
               <li className="flex items-start gap-4">
                 <MapPin className="h-6 w-6 text-turquoise shrink-0 mt-1" />
-                <span className="text-white/70">Muelle La Bodeguita<br/>Cartagena de Indias, Colombia</span>
+                <span className="text-white/70">Muelle La Bodeguita<br />Cartagena de Indias, Colombia</span>
               </li>
               <li className="flex items-center gap-4">
                 <Phone className="h-5 w-5 text-turquoise shrink-0" />
-                <span className="text-white/70">+57 300 123 4567</span>
+                <a
+                  href="https://wa.link/9u4yn9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
+                  +57 323 4362220
+                </a>
               </li>
               <li className="flex items-center gap-4">
                 <Mail className="h-5 w-5 text-turquoise shrink-0" />
