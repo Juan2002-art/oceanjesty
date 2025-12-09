@@ -1,0 +1,456 @@
+Crea un sitio web moderno, elegante y funcional para OCEANJESTKY, una agencia de turismo especializada en pasadías a islas privadas del Rosario, alquiler de botes y alquiler de jetskis desde Cartagena, Colombia.
+
+El sitio debe tener 3 páginas principales:
+
+Pasadías a Islas Privadas
+
+Alquiler de Botes / Yates
+
+Alquiler de Jetskis
+y una página opcional de Contacto o Reservas.
+
+🎨 DISEÑO Y ESTÉTICA
+
+Paleta inspirada en el mar:
+
+Azul profundo (#083F6F)
+
+Turquesa Acqua (#48C6EF)
+
+Arena clara (#F2E9D8)
+
+Blanco (#FFFFFF)
+
+Tipografías:
+
+Títulos: Playfair Display (Estilo premium y elegante)
+
+Cuerpo: Inter / Helvetica
+
+Fotos:
+
+Playas, islas, botes, jetskis, experiencias (placeholders de Unsplash)
+
+Animaciones:
+
+Fade-in, slide-up, zoom suave al hacer scroll
+
+Estilo:
+
+Premium, tropical, moderno, con mucho aire visual
+
+🌊 HERO PRINCIPAL
+
+Fullscreen con video o foto aérea de las islas
+
+Overlay degradado azul
+
+Título grande:
+“Vive el Caribe como Nunca Antes”
+
+Subtítulo:
+“Islas, Botes Privados & Jetskis – Cartagena · Islas del Rosario”
+
+Botones CTA:
+
+“Ver Pasadías”
+
+“Reservar Ahora”
+
+Indicador de scroll animado
+
+🏝️ PÁGINA 1: PASADÍAS A ISLAS PRIVADAS
+
+Incluye una sección general y luego cada isla con su propio bloque visual premium.
+
+Sección introductoria:
+
+Explicación corta:
+“Reserva tus pasadías a las mejores islas privadas del archipiélago Islas del Rosario. Incluye transporte, almuerzo y acceso a instalaciones premium.”
+
+🏝️ ISLAS DISPONIBLES (cada una como tarjeta premium con foto + descripción completa):
+⭐ HOTEL ISLA DEL SOL
+
+INCLUYE:
+
+Transporte Cartagena – Isla del Sol – Cartagena (embarcaciones para 36–50 pasajeros)
+
+Frutas tropicales de bienvenida
+
+Almuerzo típico: pescado frito, arroz con coco o blanco, yuca frita, patacón, ensalada + bebida suave
+
+Postre típico
+
+Sillas asoleadoras
+
+Piscina con agua de mar
+
+Recorrido panorámico por el Parque Nacional Natural Corales del Rosario + llegada al acuario (entrada opcional)
+
+NO INCLUYE:
+Tasa Portuaria $23.000 COP – toallas – actividades adicionales (snorkel, buceo, masajes, caminatas).
+
+HORARIOS:
+
+Embarque: 8:30 a 9:00 AM
+
+Regreso: 3:00 PM
+
+POLÍTICAS: No se permite ingreso de alimentos ni bebidas.
+
+📌 Botón: Reservar Isla del Sol
+
+⭐ BORA BORA BEACH CLUB
+
+INCLUYE:
+
+Traslado en lancha rápida
+
+Cóctel de bienvenida
+
+Cabana / Cama playa
+
+Almuerzo típico (3 opciones)
+
+NO INCLUYE:
+Tasa portuaria $23.000 COP – toallas – actividades opcionales – alimentos a la carta.
+
+CONDICIONES:
+No mascotas – No Oceanario – Llegar 7:20 AM – Regreso 3 PM.
+
+📌 Botón: Reservar Bora Bora
+
+⭐ BORA BORA BEACH VIP
+
+INCLUYE:
+
+Transporte
+
+Cóctel especial
+
+Almuerzo premium (Paella, Pasta Marinera, Risotto, Pescado, Pollo o Vegetariano)
+
+Cama playera
+
+Acceso a instalaciones
+
+NO INCLUYE:
+Tasa portuaria $23.000 COP
+
+CONDICIONES:
+No mascotas – No snorkel – Llegar 7:20 AM – Regreso 3 PM
+
+📌 Botón: Reservar Bora Bora VIP
+
+⭐ PAO PAO BEACH
+
+INCLUYE:
+
+Transporte
+
+Cóctel especial
+
+Almuerzo premium (Paella, Risotto, Pastas, Pollo, Pescado o Vegetariano)
+
+Cabaña / cama playera
+
+Acceso total a instalaciones
+
+NO INCLUYE:
+Tasa portuaria $23.000 COP
+
+CONDICIONES:
+No mascotas – No snorkel – Llegar 7:20 AM – Regreso 3 PM
+
+📌 Botón: Reservar Pao Pao
+
+⭐ ISLABELA
+
+INCLUYE:
+
+Transporte
+
+Cóctel especial
+
+Almuerzo típico o pollo / vegetariano
+
+Sillas asoleadoras
+
+Instalaciones incluidas
+
+NO INCLUYE:
+Tasa portuaria $23.000 COP
+
+📌 Botón: Reservar Islabela
+
+⭐ LUXURY OPEN BAR VIP
+
+INCLUYE:
+
+Transporte VIP
+
+Barra libre nacional ilimitada
+(cerveza, sodas, limonada, cócteles clásicos)
+
+DJ en vivo
+
+Cama playera
+
+Almuerzo menú con 10 opciones
+
+Servicio en playa
+
+Ducha
+
+Opcional: recorrido panorámico con parada en Oceanario
+
+📌 Botón: Reservar Luxury Open Bar
+
+⭐ LUXURY AREA BEACH
+
+INCLUYE:
+
+Lancha Tritón
+
+Barra libre nacional
+
+Parasol & asoleadora
+
+Almuerzo (3 opciones)
+
+Servicio en barra
+
+Ducha
+
+Opcional: recorrido panorámico
+
+📌 Botón: Reservar Area Beach
+
+⭐ PAUE BEACH CLUB
+
+INCLUYE:
+
+Transporte ida y vuelta
+
+Hidratación
+
+Copa de champán
+
+Tour panorámico
+
+Asoleadoras y cama de playa
+
+Áreas comunes completas
+
+Almuerzo con 7 opciones
+
+Actividades: Paddle y Kayak
+
+Happy Hour 2×1
+
+📌 Botón: Reservar Paue Beach
+
+⭐ ISLA SOL Y PAPAYA
+
+INCLUYE:
+
+Transporte
+
+Snorkel + deportes de playa
+
+Cóctel especial
+
+Instalaciones
+
+Almuerzo 4 opciones
+
+Postre
+
+Servicio de toallas
+
+Menú infantil
+
+📌 Botón: Reservar Sol y Papaya
+
+🚤 PÁGINA 2: ALQUILER DE BOTES
+
+Galería tipo grid, 2 o 3 columnas.
+
+Cada bote incluye:
+
+Foto destacada
+
+Especificaciones
+
+Capacidad
+
+Servicios incluidos
+
+CTA: Reservar Ahora
+
+Botes disponibles:
+Powercat 51 ft
+
+Capitán + 2 marineros
+
+Hielo incluido
+
+4 habitaciones
+
+4 baños
+
+Sonido Bluetooth
+
+Capacidad 35 pax
+
+Lagoon 440 – Catamarán
+
+Capacidad 23 pax
+
+4 cabinas
+
+4 baños
+
+Aire acondicionado
+
+Sonido Bluetooth
+
+Lancha Harb (Firpool 42 ft – 2023)
+
+2 motores Suzuki 250 HP
+
+Capacidad 20 pax
+
+Baño
+
+Sonido
+
+Asoleadoras
+
+Cohiba 33’
+
+Capacidad 14 pax
+
+Asoleadora VIP
+
+Full sonido
+
+Baño
+
+Nevera con hielo
+
+4 máscaras snorkel incluidas
+
+🏎️💦 PÁGINA 3: ALQUILER DE JETSKIS
+
+Esta página queda lista para añadir tus modelos cuando quieras.
+
+Incluye:
+
+Jetskis disponibles
+
+Modelos
+
+Potencia
+
+Tiempo: 30 min / 1 hora
+
+Reglas de seguridad
+
+Indicaciones sobre edad mínima
+
+CTA: Reservar Jetski
+
+📸 GALERÍA
+
+Masonry grid
+
+Fotos de islas, botes, jetskis, clientes
+
+Lightbox + animaciones
+
+📝 FORMULARIO DE RESERVAS
+
+Servicio (Islas / Botes / Jetskis)
+
+Fecha
+
+Hora
+
+Cantidad de personas
+
+Datos personales
+
+Notas
+
+Botón animado: Confirmar Reserva
+
+Botón secundario: WhatsApp
+
+⭐ TESTIMONIOS
+
+Carrusel
+
+Estrellas
+
+Fotos reales o avatares
+
+Integración visual con Google Reviews
+
+📍 UBICACIÓN Y CONTACTO
+
+Mapa del Muelle La Bodeguita
+
+Teléfono
+
+WhatsApp directo
+
+Redes sociales
+
+Horarios
+
+🔻 FOOTER
+
+3 columnas:
+
+Sobre Oceanjestky
+
+Enlaces rápidos
+
+Newsletter
+
+Redes sociales
+
+Métodos de pago
+
+⚙️ CARACTERÍSTICAS TÉCNICAS
+
+100% responsive
+
+Mobile First
+
+Lazy Loading
+
+Animaciones premium
+
+Navbar con efecto shrink
+
+Carga rápida
+
+Hover states
+
+Formularios con validación
+
+📱 VERSIÓN MÓVIL
+
+Menú hamburguesa
+
+Botones grandes
+
+Galería en una columna
+
+Botón WhatsApp fijo
+
+🌊✨ ESTILO FINAL
+
+El sitio debe transmitir aventura, exclusividad, elegancia tropical y experiencias inolvidables en el mar. Visualmente atractivo, moderno y fácil de usar.

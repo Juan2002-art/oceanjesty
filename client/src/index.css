@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Oceanjestky Palette */
+  --color-deep-blue: hsl(208 87% 23%);   /* #083F6F */
+  --color-turquoise: hsl(195 84% 61%);   /* #48C6EF */
+  --color-sand: hsl(39 45% 90%);         /* #F2E9D8 */
+  --color-white: hsl(0 0% 100%);         /* #FFFFFF */
+  
+  /* Semantic mappings */
+  --color-background: var(--color-white);
+  --color-foreground: var(--color-deep-blue);
+  
+  --color-primary: var(--color-deep-blue);
+  --color-primary-foreground: var(--color-white);
+  
+  --color-secondary: var(--color-turquoise);
+  --color-secondary-foreground: var(--color-deep-blue);
+  
+  --color-accent: var(--color-sand);
+  --color-accent-foreground: var(--color-deep-blue);
+  
+  --color-muted: hsl(210 40% 96.1%);
+  --color-muted-foreground: hsl(215.4 16.3% 46.9%);
+  
+  --color-card: var(--color-white);
+  --color-card-foreground: var(--color-deep-blue);
+  
+  --color-border: hsl(214.3 31.8% 91.4%);
+  --color-input: hsl(214.3 31.8% 91.4%);
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  
+  --radius-lg: 0.5rem;
+  --radius-md: calc(0.5rem - 2px);
+  --radius-sm: calc(0.5rem - 4px);
+  
+  --animate-fade-in: fade-in 0.5s ease-out;
+  --animate-slide-up: slide-up 0.5s ease-out;
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slide-up {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground selection:bg-turquoise/30;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  }
+}
