@@ -49,7 +49,7 @@ export function Navbar() {
               "font-serif text-xl font-bold tracking-widest leading-none",
               scrolled || location !== "/" ? "text-deep-blue" : "text-white"
             )}>
-              OCEANJESTKY
+              OCEANJETSKI
             </span>
             <span className={cn(
               "text-[10px] tracking-[0.3em] uppercase opacity-80",
@@ -71,13 +71,13 @@ export function Navbar() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-turquoise transition-all group-hover:w-full" />
             </Link>
           ))}
-          <Button 
-            onClick={() => openWhatsApp("Hola! Me gustaría reservar una experiencia con OCEANJESTKY. ¿Qué servicios tienen disponibles?")}
+          <Button
+            onClick={() => openWhatsApp("Hola! Me gustaría reservar una experiencia con OCEANJETSKI. ¿Qué servicios tienen disponibles?")}
             variant={scrolled || location !== "/" ? "default" : "outline"}
             className={cn(
               "rounded-full px-6 font-medium tracking-wide",
-              scrolled || location !== "/" 
-                ? "bg-deep-blue hover:bg-deep-blue/90 text-white" 
+              scrolled || location !== "/"
+                ? "bg-deep-blue hover:bg-deep-blue/90 text-white"
                 : "border-white text-white hover:bg-white hover:text-deep-blue"
             )}
             data-testid="button-reservar-navbar"
@@ -97,7 +97,7 @@ export function Navbar() {
             <SheetContent side="right" className="bg-white border-l-0 w-[80%] sm:w-[350px]">
               <div className="flex flex-col h-full pt-10">
                 <div className="mb-8">
-                  <span className="font-serif text-2xl font-bold text-deep-blue">OCEANJESTKY</span>
+                  <span className="font-serif text-2xl font-bold text-deep-blue">OCEANJETSKI</span>
                 </div>
                 <div className="flex flex-col gap-6">
                   {navLinks.map((link) => (
@@ -106,7 +106,7 @@ export function Navbar() {
                     </Link>
                   ))}
                 </div>
-                
+
                 <div className="mt-auto mb-8 space-y-4">
                   <div className="flex items-center gap-3 text-muted-foreground">
                     <MapPin className="h-5 w-5 text-turquoise" />
@@ -116,8 +116,8 @@ export function Navbar() {
                     <Phone className="h-5 w-5 text-turquoise" />
                     <span className="text-sm">+57 300 123 4567</span>
                   </div>
-                  <Button 
-                    onClick={() => openWhatsApp("Hola! Me gustaría reservar una experiencia con OCEANJESTKY. ¿Qué servicios tienen disponibles?")}
+                  <Button
+                    onClick={() => openWhatsApp("Hola! Me gustaría reservar una experiencia con OCEANJETSKI. ¿Qué servicios tienen disponibles?")}
                     className="w-full bg-deep-blue text-white rounded-full mt-4"
                     data-testid="button-whatsapp-mobile"
                   >

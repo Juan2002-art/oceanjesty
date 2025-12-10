@@ -33,10 +33,10 @@ export default function Home() {
               viewport={{ once: true, margin: "-100px" }}
             >
               <span className="inline-block py-1 px-3 text-turquoise font-bold tracking-widest uppercase text-sm mb-6 border-l-2 border-turquoise pl-4">
-                Bienvenido a Oceanjestky
+                Bienvenido a Oceanjetski
               </span>
               <h2 className="font-serif text-5xl md:text-6xl font-bold text-deep-blue mb-8 leading-[1.1]">
-                Diseñamos tu <br/>
+                Diseñamos tu <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-deep-blue to-turquoise">
                   escapada perfecta
                 </span>
@@ -44,7 +44,7 @@ export default function Home() {
               <p className="text-slate-600 text-lg leading-relaxed mb-8 border-l border-slate-200 pl-6">
                 No somos solo una agencia de turismo; somos curadores de experiencias. Seleccionamos las islas más exclusivas y mantenemos una flota premium para garantizar que tu día en el mar sea impecable.
               </p>
-              
+
               <div className="grid grid-cols-3 gap-8 pt-8 border-t border-slate-100">
                 <div>
                   <h4 className="font-serif text-4xl font-bold text-deep-blue mb-1">15+</h4>
@@ -90,10 +90,10 @@ export default function Home() {
           <div className="absolute -top-64 -right-32 w-96 h-96 rounded-full bg-turquoise/5 blur-3xl" />
           <div className="absolute -bottom-48 -left-32 w-96 h-96 rounded-full bg-turquoise/5 blur-3xl" />
         </div>
-        
+
         <div className="container mx-auto px-4 relative z-10">
           {/* Header */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
@@ -113,7 +113,7 @@ export default function Home() {
 
           {/* Features Grid */}
           <div className="grid md:grid-cols-2 gap-8 mb-20">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
@@ -127,7 +127,7 @@ export default function Home() {
               <p className="text-white/70 leading-relaxed">Botes certificados internacionalmente, mantenimiento al día y capitanes con experiencia de 10+ años en aguas del Caribe.</p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
@@ -155,8 +155,8 @@ export default function Home() {
               >
                 {/* Image */}
                 <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src={images[boat.id as keyof typeof images] || images.boat} 
+                  <img
+                    src={images[boat.id as keyof typeof images] || images.boat}
                     alt={boat.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
@@ -170,7 +170,7 @@ export default function Home() {
                     <h3 className="font-serif text-3xl font-bold mb-2">{boat.name}</h3>
                     <p className="text-white/80 text-sm line-clamp-2">Bote {boat.type.toLowerCase()} exclusivo para tu aventura caribeña.</p>
                   </div>
-                  
+
                   <div className="flex items-center justify-between">
                     <div className="flex gap-6">
                       <div>
@@ -194,7 +194,7 @@ export default function Home() {
           </div>
 
           {/* CTA Button */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -216,19 +216,19 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-deep-blue mb-4">Confianza que inspira</h2>
             <div className="flex justify-center gap-1 mb-4">
-              {[1,2,3,4,5].map(i => <Star key={i} className="w-5 h-5 fill-turquoise text-turquoise" />)}
+              {[1, 2, 3, 4, 5].map(i => <Star key={i} className="w-5 h-5 fill-turquoise text-turquoise" />)}
             </div>
             <p className="text-slate-500">Más de 500 reseñas de 5 estrellas</p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { name: "Camila R.", text: "Simplemente espectacular. La atención al detalle en el bote fue increíble.", role: "Turista de México" },
               { name: "James W.", text: "Best day of our trip to Cartagena. The island recommendation was spot on.", role: "Turista de USA" },
               { name: "Sofia M.", text: "Organizaron el cumpleaños de mi esposo y todo salió perfecto. ¡Gracias!", role: "Cliente Local" }
             ].map((review, i) => (
-              <motion.div 
-                key={i} 
+              <motion.div
+                key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}

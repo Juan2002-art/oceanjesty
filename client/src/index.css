@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  /* Oceanjestky Palette */
+  /* Oceanjetski Palette */
   --color-deep-blue: hsl(208 87% 23%);   /* #083F6F */
   --color-turquoise: hsl(195 84% 61%);   /* #48C6EF */
   --color-sand: hsl(39 45% 90%);         /* #F2E9D8 */

@@ -119,7 +119,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-bold text-deep-blue text-lg">Email</p>
-                    <p className="text-slate-600">reservas@oceanjestky.com</p>
+                    <p className="text-slate-600">reservas@oceanjetski.com</p>
                   </div>
                 </div>
               </div>
@@ -303,8 +303,8 @@ export default function Contact() {
                       >
                         <Star
                           className={`w-8 h-8 ${star <= formData.rating
-                              ? "fill-sand text-sand"
-                              : "text-white/30"
+                            ? "fill-sand text-sand"
+                            : "text-white/30"
                             }`}
                         />
                       </button>
@@ -317,7 +317,7 @@ export default function Contact() {
                   <Textarea
                     value={formData.text}
                     onChange={(e) => setFormData({ ...formData, text: e.target.value })}
-                    placeholder="Cuéntanos sobre tu experiencia con OCEANJESTKY..."
+                    placeholder="Cuéntanos sobre tu experiencia con OCEANJETSKI..."
                     className="min-h-[120px] bg-white/10 border-white/20 text-white placeholder:text-white/50 rounded-lg focus:border-turquoise"
                   />
                 </div>

@@ -18,24 +18,24 @@ export default function Botes() {
         </div>
 
         <div className="absolute inset-0 z-0">
-          <img 
-            src={images.boat} 
-            alt="Botes de Lujo" 
+          <img
+            src={images.boat}
+            alt="Botes de Lujo"
             className="w-full h-full object-cover opacity-40 mix-blend-overlay"
           />
         </div>
-        
+
         <div className="container mx-auto px-4 relative z-10 text-center text-white">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="mb-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-turquoise/30 backdrop-blur"
           >
-            <Badge className="bg-turquoise text-deep-blue border-none">Oceanjestky Fleet</Badge>
+            <Badge className="bg-turquoise text-deep-blue border-none">Oceanjetski Fleet</Badge>
           </motion.div>
 
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
@@ -44,7 +44,7 @@ export default function Botes() {
             Navega sin <span className="text-transparent bg-clip-text bg-gradient-to-r from-turquoise to-sand">Límites</span>
           </motion.h1>
 
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -54,7 +54,7 @@ export default function Botes() {
           </motion.p>
 
           {/* Stats Grid */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
@@ -80,7 +80,7 @@ export default function Botes() {
       <section className="py-20 bg-white relative overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-3 gap-8">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -94,7 +94,7 @@ export default function Botes() {
               <p className="text-slate-700 leading-relaxed font-light text-base">Capitán y marinero profesional en cada viaje, con experiencia en aguas del Caribe</p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
@@ -108,7 +108,7 @@ export default function Botes() {
               <p className="text-slate-700 leading-relaxed font-light text-base">Botes certificados, pólizas actualizadas y mantenimiento riguroso en todo momento</p>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -134,7 +134,7 @@ export default function Botes() {
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -149,7 +149,7 @@ export default function Botes() {
             <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold text-deep-blue mb-6">Embarcaciones Excepcionales</h2>
             <p className="text-slate-700 text-lg max-w-3xl mx-auto font-light">Cada bote en nuestra flota ha sido seleccionado cuidadosamente para ofrecerte la máxima comodidad y lujo caribeño. Desde íntimos catamaranes hasta yates de ensueño.</p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {boats.map((boat, index) => (
               <BoatCard key={boat.id} boat={boat} index={index} />
@@ -157,7 +157,7 @@ export default function Botes() {
           </div>
 
           {/* Stats Strip */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -183,7 +183,7 @@ export default function Botes() {
           </motion.div>
 
           {/* CTA Section */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}

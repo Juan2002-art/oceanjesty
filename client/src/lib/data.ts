@@ -1,4 +1,4 @@
-// Data for Oceanjestky Website
+// Data for Oceanjetski Website
 
 export const islands = [
   {
